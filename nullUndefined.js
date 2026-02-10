@@ -1,6 +1,6 @@
 let vlaor;
 // não inicializada
-console.log(vlaor);
+console.log(valor);
 
 valor = null; //ausência de valor
 console.log(valor);
