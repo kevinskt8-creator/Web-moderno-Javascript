@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria Top</title>
+  <style>
+    body { font-family: Arial; margin: 0; }
+    header { background: #111; color: #fff; padding: 15px; text-align: center; }
+    section { padding: 20px; }
+    .menu { display: flex; gap: 20px; flex-wrap: wrap; }
+    .item { border: 1px solid #ccc; padding: 15px; width: 200px; }
+    button { background: #28a745; color: white; border: none; padding: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍔 Hamburgueria Top</h1>
+  <p>Os melhores hambúrgueres da cidade</p>
+</header>
+
+<section>
+  <h2>Cardápio</h2>
+  <div class="menu">
+
+    <div class="item">
+      <h3>X-Burger</h3>
+      <p>R$ 20,00</p>
+      <button onclick="pedir('X-Burger', 20)">Pedir</button>
+    </div>
+
+    <div class="item">
+      <h3>X-Bacon</h3>
+      <p>R$ 25,00</p>
+      <button onclick="pedir('X-Bacon', 25)">Pedir</button>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Contato</h2>
+  <p>WhatsApp: (61) 99999-9999</p>
+</section>
+
+<script>
+  function pedir(nome, preco) {
+    let mensagem = `Olá! Quero pedir: %0A- ${nome} (R$ ${preco})`;
+    let telefone = '5561999999999';
+    window.open(`https://wa.me/${telefone}?text=${mensagem}`);
+  }
+</script>
+
+</body>
+</html>
