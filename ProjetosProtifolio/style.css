@@ -28,15 +28,14 @@ h1 {
     
 }
 
-.input-group, .output-group {
+#converter-form {
     display: flex;
-    flex-direction:column;
-    margin-bottom: 1.2rem;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 
-.input-group label, .output-group label{
-    margin-bottom: 0.4rem;
-    font-weight:  bold;
+#converter-form label {
+    font-weight: bold;
 }
 
 select, input {
@@ -60,12 +59,16 @@ button {
     transition: 0.4s;
 }
 
-button:hover {
-    opacity: 1;
+#converter-form button {
+    margin-top: 0.4rem;
 }
 
-.output-group {
-    margin-top: 1.2rem;
+#output {
+    margin-top: 0.4rem;
+}
+
+button:hover {
+    opacity: 1;
 }
 
 #message {

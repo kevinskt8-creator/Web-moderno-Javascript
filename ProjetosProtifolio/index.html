@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Unidades</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js" defer></script>
+    <script src="Conversordeunidades/scripts.js" defer></script>
 </head>
 <body>
-    <div class="container">
-    <h1>Conversor de Unidades</h1>
-    <div class="input-group">
-        <label for="input">Digite a quantidade:</label>
-        <input type="number" id="input" name="input" placeholder="0">
-    </div>
-    <div class="input-group">
-        <label for="from">De:</label>
-        <select name="from" id="from">
-            <option value="m">Metros(s)</option>
-            <option value="km">Quilômetros(s)</option>
-            <option value="cm">Centímetros(s)</option>
-            <option value="mm">Milímetros(s)</option>
-        </select>
-    </div>
-    <button id="convert-btn">Converter</button>
-    <div class="output-group">
-        <label for="output">Resultado:</label>
-        <input type="text" id="output" readonly />
-    <div id="message"> </div>
-   </div>
-</div>
+    <main class="container">
+        <h1>Conversor de Unidades</h1>
+        <form id="converter-form">
+            <label for="input">Digite a quantidade:</label>
+            <input type="number" id="input" name="input" placeholder="0">
+
+            <label for="from">De:</label>
+            <select name="from" id="from">
+                <option value="m">Metros(s)</option>
+                <option value="km">Quilometros(s)</option>
+                <option value="cm">Centimetros(s)</option>
+                <option value="mm">Milimetros(s)</option>
+            </select>
+
+            <label for="to">Para:</label>
+            <select name="to" id="to">
+                <option value="m">Metros(s)</option>
+                <option value="km">Quilometros(s)</option>
+                <option value="cm">Centimetros(s)</option>
+                <option value="mm">Milimetros(s)</option>
+            </select>
+
+            <button id="convert-btn" type="button">Converter</button>
+
+            <label for="output">Resultado:</label>
+            <input type="text" id="output" readonly>
+            <p id="message"></p>
+        </form>
+    </main>
 </body>
 </html>
