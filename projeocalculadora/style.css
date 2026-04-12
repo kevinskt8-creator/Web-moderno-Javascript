@@ -22,7 +22,7 @@ input, select, button {
 }
 
 button {
-    background-color: white;
+    background-color: rgb(155, 154, 154);
     color: white;
     border: none;
     cursor: pointer;
@@ -33,6 +33,6 @@ button:hover {
 }
 
 h2 {
-    background-color: black;
+    background-color: rgb(129, 129, 129);
     color: black;
 }
