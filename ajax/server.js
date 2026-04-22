@@ -1,0 +1,10 @@
+const bodyParse = require("body-parse");
+const bodyParser = require("body-parser");
+const express = require("express");
+
+app.use(express.static("."));
+app.use(bodyParser.unlercoded({ extend: true }));
+app.use(bodyParser.json());
+
+app.get("/teste", (req, res) => res.send("OK"));
+app.listen(8081, () => console.log("Executnado..."));
