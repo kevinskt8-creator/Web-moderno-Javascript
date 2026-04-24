@@ -27,7 +27,16 @@ app.post('/upload', (req, res) => {
             return res.end('Ocorreu um erro.')
         }
         res.end('Concluído com sucesso.')
+
+         })
     })
-})
+
+    app.post('/formulario', (rew, res) => {
+        res.send({
+            ...req.body,
+            id: 1
+        })
+    })
+
 
 app.listen(8081, () => console.log("Executnado..."));
