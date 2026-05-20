@@ -1,5 +1,8 @@
+$cor-botao-padrao: #fff;
+$cor-bg-botao-padrao: #19B3E6;
+
 .botao {
     background-color: $cor-bg-botao-padrao;
-    color: $cor-bg-botao-padrao;
-    font-size: 1.8;
+    color: $cor-botao-padrao;
+    font-size: 1.8em;
 }
