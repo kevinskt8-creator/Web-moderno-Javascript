@@ -1,3 +1,4 @@
+// Arquivo SASS
 import './scss/index.scss';
 
 import $ from 'jquery';
