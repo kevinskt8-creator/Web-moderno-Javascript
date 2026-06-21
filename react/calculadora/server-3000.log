@@ -1,0 +1,22 @@
+
+> calculadora@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src\main\Calculator.jsx
+  Line 40:25:  eval can be harmful  no-eval
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\main\Calculator.jsx
+  Line 40:25:  eval can be harmful  no-eval
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
