@@ -1,0 +1,425 @@
+
+> calculadora@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view calculadora in the browser.
+
+  Local:            http://localhost:3002
+  On Your Network:  http://192.168.15.100:3002
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\compenents\button.jsx
+Syntax error: Unexpected token (5:33) (5:33)
+[1m[31mERROR[39m[22m in [1m./src/compenents/button.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\compenents\button.jsx: Unexpected token (5:33)
+
+[0m [90m 3 |[39m
+ [90m 4 |[39m [36mconst[39m [33mButton[39m [33m=[39m props [33m=>[39m
+[31m[1m>[22m[39m[90m 5 |[39m     [33m<[39m[33mbutton[39m className[33m=[39m[32m"button"[39m[33m>[39m{[33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m   |[39m                                  [31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mdefault[39m [33mButton[39m
+ [90m 8 |[39m[0m
+    at constructor (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6616:19)
+    at FlowParserMixin.unexpected (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6636:16)
+    at FlowParserMixin.jsxParseIdentifier (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4581:12)
+    at FlowParserMixin.jsxParseNamespacedName (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4588:23)
+    at FlowParserMixin.jsxParseElementName (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4597:21)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4673:22)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4698:33)
+    at FlowParserMixin.jsxParseElement (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:39
+    at FlowParserMixin.tryParse (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6924:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10801:23)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:39
+    at FlowParserMixin.allowInAnd (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12443:12)
+    at FlowParserMixin.parseExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4644:31)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4723:36)
+    at FlowParserMixin.jsxParseElement (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:39
+    at FlowParserMixin.tryParse (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6924:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:18)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12110:24)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3080:16)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:12)
+    at FlowParserMixin.parseArrowExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12092:10)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11455:25)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\compenents\button.jsx
+  Line 5:33:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (5:33)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\compenents\button.jsx
+Syntax error: Unterminated regular expression. (5:45) (5:45)
+[1m[31mERROR[39m[22m in [1m./src/compenents/button.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\compenents\button.jsx: Unterminated regular expression. (5:45)
+
+[0m [90m 3 |[39m
+ [90m 4 |[39m [36mconst[39m [33mButton[39m [33m=[39m props [33m=>[39m
+[31m[1m>[22m[39m[90m 5 |[39m     [33m<[39m[33mbutton[39m className[33m=[39m[32m"button"[39m[33m>[39m{props[33m.[39mlabel[33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m   |[39m                                              [31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mdefault[39m [33mButton[39m
+ [90m 8 |[39m[0m
+    at constructor (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6616:19)
+    at FlowParserMixin.readRegexp (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6345:20)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11330:16)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOpBaseRightExpr (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11003:34)
+    at FlowParserMixin.parseExprOpRightExpr (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10998:21)
+    at FlowParserMixin.parseExprOp (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10964:27)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10925:17)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3561:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10801:23)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:39
+    at FlowParserMixin.allowInAnd (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12443:12)
+    at FlowParserMixin.parseExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4644:31)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4723:36)
+    at FlowParserMixin.jsxParseElement (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:39
+    at FlowParserMixin.tryParse (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6924:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:18)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12110:24)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3080:16)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:12)
+    at FlowParserMixin.parseArrowExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12092:10)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11455:25)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3561:18)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10817:39
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\compenents\button.jsx
+  Line 5:45:  Parsing [1m[31merror[39m[22m[1m: Unterminated regular expression. (5:45)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\compenents\button.jsx
+Syntax error: Unterminated regular expression. (5:45) (5:45)
+[1m[31mERROR[39m[22m in [1m./src/compenents/button.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\compenents\button.jsx: Unterminated regular expression. (5:45)
+
+[0m [90m 3 |[39m
+ [90m 4 |[39m [36mconst[39m [33mButton[39m [33m=[39m props [33m=>[39m
+[31m[1m>[22m[39m[90m 5 |[39m     [33m<[39m[33mbutton[39m className[33m=[39m[32m"button"[39m[33m>[39m{props[33m.[39mlabel[33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m   |[39m                                              [31m[1m^[22m[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mdefault[39m [33mButton[39m
+ [90m 8 |[39m[0m
+    at constructor (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6616:19)
+    at FlowParserMixin.readRegexp (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6345:20)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11330:16)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOpBaseRightExpr (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11003:34)
+    at FlowParserMixin.parseExprOpRightExpr (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10998:21)
+    at FlowParserMixin.parseExprOp (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10964:27)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10925:17)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3561:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10801:23)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:39
+    at FlowParserMixin.allowInAnd (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12443:12)
+    at FlowParserMixin.parseExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10797:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4644:31)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4723:36)
+    at FlowParserMixin.jsxParseElement (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4761:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4771:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:39
+    at FlowParserMixin.tryParse (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:6924:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3510:18)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12110:24)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3080:16)
+    at FlowParserMixin.parseFunctionBody (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:2904:12)
+    at FlowParserMixin.parseArrowExpression (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:12092:10)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11455:25)
+    at FlowParserMixin.parseExprAtom (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:4776:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11098:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11083:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:11063:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10916:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10921:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10898:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10848:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:3561:18)
+    at C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\node_modules\@babel\parser\lib\index.js:10817:39
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\compenents\button.jsx
+  Line 5:45:  Parsing [1m[31merror[39m[22m[1m: Unterminated regular expression. (5:45)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+Syntax error: C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\main\Calculator.css Unknown word grid (9:5)
+ [90m  7 | [39m
+ [90m  8 | [39m    display[33m:[39m grid[33m;[39m
+[1m[31m>[39m[22m[90m  9 | [39m    grid
+ [90m    | [39m    [1m[31m^[39m[22m
+ [90m 10 | [39m
+ [90m 11 | [39m[33m}[39m
+[1m[31mERROR[39m[22m in [1m./src/main/Calculator.css[39m[22m (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/main/Calculator.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(9:5) C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\main\Calculator.css Unknown word grid
+
+ [90m  7 | [39m
+ [90m  8 | [39m    display[33m:[39m grid[33m;[39m
+[1m[31m>[39m[22m[90m  9 | [39m    grid
+ [90m    | [39m    [1m[31m^[39m[22m
+ [90m 10 | [39m
+ [90m 11 | [39m[33m}[39m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+Syntax error: C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\main\Calculator.css Unknown word grid (10:5)
+ [90m  8 | [39m    display[33m:[39m grid[33m;[39m
+ [90m  9 | [39m    grid-template-columns[33m:[39m [36mrepeat[39m[36m(4, 25%)[39m[33m;[39m
+[1m[31m>[39m[22m[90m 10 | [39m    grid
+ [90m    | [39m    [1m[31m^[39m[22m
+ [90m 11 | [39m
+ [90m 12 | [39m[33m}[39m
+[1m[31mERROR[39m[22m in [1m./src/main/Calculator.css[39m[22m (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/main/Calculator.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(10:5) C:\Users\Carlo\OneDrive\Documentos\GitHub\Web-moderno-Javascript\react\calculadora\src\main\Calculator.css Unknown word grid
+
+ [90m  8 | [39m    display[33m:[39m grid[33m;[39m
+ [90m  9 | [39m    grid-template-columns[33m:[39m [36mrepeat[39m[36m(4, 25%)[39m[33m;[39m
+[1m[31m>[39m[22m[90m 10 | [39m    grid
+ [90m    | [39m    [1m[31m^[39m[22m
+ [90m 11 | [39m
+ [90m 12 | [39m[33m}[39m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
